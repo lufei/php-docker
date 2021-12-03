@@ -40,7 +40,7 @@ jobs:
         with:
           context: .
           file: ${{ matrix.php }}/Dockerfile
-          platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64/v8,linux/ppc64le
+          platforms: linux/amd64
           push: true
           tags: ${{ steps.set_full_names.outputs.full_names }}
 

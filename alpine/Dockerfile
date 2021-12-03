@@ -1,4 +1,4 @@
-FROM php:latest-alpine
+FROM php:alpine
 
 LABEL maintainer="Lu Fei <lufei@php.net>"
 
