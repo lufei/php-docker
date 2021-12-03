@@ -2,6 +2,9 @@ name: Build Versioned Alpine Images
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build_versioned_alpine_images:

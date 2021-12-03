@@ -2,6 +2,9 @@ name: Build Versioned Images
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build_versioned_images:

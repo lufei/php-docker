@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '47 4 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build_latest_images:
