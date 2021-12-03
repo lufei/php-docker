@@ -39,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ${{ matrix.php }}-alpine/Dockerfile
+          file: alpine/Dockerfile
           platforms: linux/amd64
           push: true
           tags: ${{ steps.set_full_names.outputs.full_names }}
