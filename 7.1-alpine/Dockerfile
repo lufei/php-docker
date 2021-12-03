@@ -37,7 +37,6 @@ RUN apk add --no-cache \
     zlib \
     zlib-dev \
     libcurl \
-    libpq-dev \
     curl-dev
 
 
